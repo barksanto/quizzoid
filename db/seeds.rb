@@ -787,10 +787,10 @@ puts '12 Refreshers Quizzes with Q&A Created'
 
 #Create User
 user1 = User.create!(
-  first_name: 'Matt',
-  last_name: 'Spach',
+  first_name: 'Guest',
+  last_name: 'Guest',
   password: '123456',
-  email: 'matt@example.com',
+  email: 'guest@example.com',
   phone_number: '1-559-355-0338',
   company: company,
   location: 'California',
