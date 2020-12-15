@@ -1,0 +1,78 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+@import "components/analytics";
+
+body {
+  color:#3E505A;
+  background-color: white;
+  font-family: Roboto;
+  padding-bottom: 5%;
+}
+
+.question-answers {
+  color:#3E505A;
+}
+
+h1 {
+  text-align: center;
+  font-family: Roboto;
+  color: #3E505A;
+  margin-top: 20px;
+}
+
+h3 {
+  text-align: center;
+  font-family: Roboto;
+  color: #3E505A;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.robot_image {
+  height: 90%;
+  margin: 0 auto;
+  // z-index: 2;
+}
+
+h4, h5 {
+  font-family: Roboto;
+}
+
+.actions {
+  padding-left: unset;
+  margin-top: unset;
+  text-align: center;
+}
+
+.teal-text {
+  color: #25C1A9;
+}
+
+h6 {
+  font-family: Roboto;
+  width: 100%vw;
+  padding-top: 12px;
+  text-align: center;
+}
+
+.b-color {
+  background-color: white;
+  box-shadow: 0 4px 6px #444444;
+  border-radius: 8px;
+}
+
+.finished-robot{
+  border-radius: 8px;
+}

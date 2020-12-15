@@ -1,0 +1,49 @@
+<%= render 'shared/banner' %>
+
+<h1>Results</h1>
+
+<div class="container">
+  <div class="row justify-content-center  stats-box">
+
+    <div class="col-6 p-1">
+      <div class="result_item">
+        <h2 class="result-item-2">Your Rank</h2>
+        <span><%= @your_rank %><%= @your_rank.ordinal %></span>
+      </div>
+    </div>
+
+    <div class="col-6 p-1">
+      <div class="result_item">
+        <h2 class="result-item-2">Team Rank</h2>
+        <span>2nd</span>
+      </div>
+    </div>
+
+    <div class="col-6 p-1">
+      <div class="result_item">
+        <h2 class="result-item-2">Points Today</h2>
+        <span><%= @points_today %></span>
+      </div>
+    </div>
+
+    <div class="col-6 p-1">
+      <div class="result_item">
+        <h2 class="result-item-2">Week</h2>
+        <span><%= @user.quiz_results.count %> of <%= @refreshers.size %></span>
+      </div>
+    </div>
+  </div>
+
+  <h3>Correct Answers This Quiz 📚</h3>
+  <div class="row justify-content-center mt-2">
+    <div class="bubble result-bubble mt-3">
+      <h1 class="big-number pb-2"><%= @quiz_results.last.score %>/<%= @quiz_results.last.possible_score %></h1>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="stats-button col-12 mt-2">
+      <%= link_to "See My Statistics", stats_user_path(@user), class: "btn btn-block next-button"%>
+    </div>
+  </div>
+</div>

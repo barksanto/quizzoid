@@ -1,0 +1,91 @@
+
+
+
+.rewards-header {
+  color: #3E505A;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  margin-top: 8px;
+}
+
+.current-points {
+  display: flex;
+  // justify-items: center;
+  // align-items: left;
+  width: 100%;
+  height: 100%;
+  padding: 4px 6px;
+  // background-color: #E5F7FF;
+  border-radius: 8px 0 0 8px;
+  color: #3E505A;
+  align-items: center;
+}
+
+.possible-points {
+  display:flex;
+  // padding: 4px 6px;
+  background-color: #F9BC11;
+  border-radius: 8px;
+  color: #3E505A;
+  // margin: 0 auto;
+  align-items: center;
+
+}
+
+
+.points-bar {
+  // padding-top: 12px;
+  border-radius: 8px;
+  height: 6vh;  // height of our points bar
+  width: 100%;
+  margin: 0 auto; // margin on sides of bar
+  display: flex;
+  background-color: #b6e1f2;
+  box-shadow: 0px 2px 4px #444444;
+}
+
+.points-you-can-earn {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.reward-img {
+  height: 125px;
+  animation: wiggle 11s;
+}
+
+@keyframes wiggle {
+  0% {transform: translate(3px ,1px) rotate(4deg); }
+  20% {transform: translate(-3px ,1px) rotate(-4deg); }
+  40% {transform: translate(3px ,-3px) rotate(3deg); }
+  50% {transform: translate(1px ,2px) rotate(-5deg); }
+  60% {transform: translate(-3px ,1px) rotate(5deg); }
+  70% {transform: translate(3px ,1px) rotate(-2deg); }
+  80% {transform: translate(-1px ,-1px) rotate(3deg); }
+  90% {transform: translate(1px ,2px) rotate(-2deg); }
+  100% {transform: translate(1px ,-2px) rotate(0deg); }
+}
+
+.prizes-box {
+  display: flex;
+  // flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  margin:0 auto;
+}
+
+.reward-btn {
+  margin-top: 80px;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.points-text {
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.rewards-header-2 {
+  font-size: 32px;
+}

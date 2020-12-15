@@ -1,0 +1,43 @@
+  body{
+    background-color: black;
+  }
+
+  .video-div{
+    background-color: #E5F7FF;
+    border-radius:8px;
+  }
+
+  .video{
+    // background-color:#25C1A9;
+    padding: 10px 10px 20px 10px;
+    border-radius: 8px;
+  }
+
+  h2,
+  h3 {
+      font-family: Roboto;
+      font-size: 24px;
+  }
+
+  iframe{
+    width:95%;
+    height:30vh;
+  }
+
+  .explanation-background {
+    background-color: #E5F7FF;
+  }
+
+  .modal-footer {
+    justify-content: center !important;
+  }
+
+  .actions {
+    padding-left: 60px;
+    margin-top: 30px;
+  }
+
+  .modal-body {
+    margin: auto;
+    text-align: center;
+  }

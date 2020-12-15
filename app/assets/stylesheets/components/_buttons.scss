@@ -1,0 +1,69 @@
+.btn {
+  background: #25c1a9;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px #444444;
+  padding: 20px 45px;
+  color:#ffffff;
+  text-align: center;
+  width: 80%;
+  margin: 4px auto;
+  font-family: Roboto;
+ }
+
+a {
+  color: white;
+}
+
+.btn:hover {
+  background-color: #AAD9DD;
+  color: white;
+}
+
+.show-explanation {
+  color: #3E505A;
+  background-color: white;
+  font-family: Roboto;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: auto;
+  // margin: 0 !important;
+}
+
+.modal-button {
+  color: #3E505A;
+  background-color: white;
+  font-family: Roboto;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: auto;
+  border: none
+}
+
+.stats-button {
+  justify-content: center;
+}
+
+.home-rewards {
+  color: #3E505A !important;
+  background-color: white;
+  font-family: Roboto !important;
+  box-shadow: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding-right: 16px;
+}
+
+// a .home-rewards {
+//   padding-left: 10px;
+// }
+
+
+.home-rewards:hover {
+  background-color: #ffffff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}

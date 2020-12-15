@@ -1,0 +1,33 @@
+.safely-banner{
+  background-color: #25C1A9;
+  width: 100%;
+  font-family: Comfortaa, Roboto, 'sans-serif';
+  font-weight: 500;
+  justify-content: flex-end;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+// .banner-title {
+//   display: flex;
+//   justify-content: flex-end;
+// }
+
+.banner-link {
+  position: absolute;
+  right: 0;
+}
+
+.logout {
+  color: white;
+}
+
+.link-home {
+  display: flex;
+  // align-items: flex-start;
+  // justify-content: flex-start;
+}
